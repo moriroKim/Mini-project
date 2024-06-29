@@ -7,7 +7,7 @@
     width: 1200px;
     height: 650px;
 
-    background-image: url(images/modal-bg.jpeg);
+    background-image: url(../images/modal-bg.jpeg);
     background-size: cover;
     opacity: 0;
     transform: translate(-50%, -50%);
@@ -173,13 +173,13 @@ label[for="remember-check"] {
 
 #sns-login-btn a:nth-child(2){
     font-size: 12px;
-    background-image: url(images/Insta-bg.png);
+    background-image: url(../images/Insta-bg.png);
     background-size: cover;
     color: rgb(242, 242, 242);
 }
 
 #sns-login-btn a:nth-child(2):hover{
-    background-image: url(images/Insta-bg-hover.png);
+    background-image: url(../images/Insta-bg-hover.png);
     color: rgb(255, 255, 255);
 }
 

@@ -1,6 +1,142 @@
 /* 480px 이하 (스마트폰) */
 @media (max-width: 480px) {
+    .nav__logo {
+        font-size: 18px;
+    }
 
+    .menu__list li:not(:last-child) {
+        display: none;
+    }
+
+    .menu__ico__mobile {
+        display: flex;
+        font-size: 20px;
+        color: #323232;
+    }
+
+    .nav__icons__wrapper li:first-child {
+        display: none;
+    }
+
+    .grid-mb {
+        display: flex;
+        flex-direction: column;
+        gap: 36px;
+        padding: 120px 48px 0 48px;
+    }
+
+    .grid-items {
+        border: 1px solid #d8d8d8;
+    }
+
+    .description {
+        padding: 4px;
+    }
+    
+    .description > h2 {
+        top: -70px;
+        font-size: 20px;
+    }
+    
+    .description p {
+        font-size: 12px;
+    }
+
+    .sub__bnr__mid {
+        height: 35vh;
+    }
+
+    .right__bnr__item > p:nth-child(4) {
+        display: none;
+    }
+
+    .product__info > li > #MADE-TAG {
+        font-size: 10px;
+    }
+
+    .product__info > li:first-child > p {
+        font-size: 11px;
+    }
+
+    .weekly__item__wrap {
+        gap: 4px;
+    }
+
+    .weekly__item > p {
+        bottom: 60px;
+        font-size: 12px;
+    }
+
+    .title__area h2 {
+        text-align: center;
+        line-height: 1.5;
+    }
+
+    .title__area p {
+        font-size: 10px;
+    }
+
+    .weekly__item__wrap > div:nth-child(1) > p {
+        color: white;
+        text-shadow: 0 0 5px black;
+    }
+
+    /* 2열 ==> 1열 그리드로 변경 */
+    .grid__container__4x1 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1;
+        padding: 0;
+        margin-bottom: 120px;
+        width: 100%;
+    }
+
+    .product__info {
+        width: 100%;
+        align-items: center;
+
+    }
+
+    .cs {
+        display: none;
+    }
+
+    .nav__bar__wrap {
+        padding: 14px;
+    }
+
+    .nav__icons__wrapper {
+        gap: 12px;
+    }
+
+    .right__bnr__item {
+        display: none;
+    }
+
+    .our__story__wrap {
+        padding: 40px 15px 30px 15px;
+    }
+
+    .catch-phrase > h2 {
+        font-size: 28px;
+    }
+
+    .phrase > p {
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+
+    .company__info {
+        display: none;
+    }
+
+    .board__info {
+        justify-content: center;
+    }
+
+    .info__nav {
+        text-align: center;
+    }
 }
 
 /* 481px ~ 768px (태블릿 세로) */
