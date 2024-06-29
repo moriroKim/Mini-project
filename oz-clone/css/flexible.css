@@ -1,0 +1,179 @@
+/* 480px 이하 (스마트폰) */
+@media (max-width: 480px) {
+
+}
+
+/* 481px ~ 768px (태블릿 세로) */
+@media (min-width: 481px) and (max-width: 768px) {
+    .nav__logo {
+        font-size: 22px;
+    }
+
+    .menu__list li:not(:last-child) {
+        display: none;
+    }
+
+    .menu__ico__mobile {
+        display: flex;
+        font-size: 22px;
+        color: #323232;
+    }
+
+    .nav__icons__wrapper li:first-child {
+        display: none;
+    }
+
+    .grid-mb {
+        display: flex;
+        flex-direction: column;
+        gap: 36px;
+        padding: 120px 48px 0 48px;
+    }
+
+    .grid-items {
+        border: 1px solid #d8d8d8;
+    }
+    
+    .description > h2 {
+        top: -75px;
+        font-size: 26px;
+    }
+    
+    .description > p {
+        font-size: 14px;
+    }
+
+    .right__bnr__item > p:nth-child(4) {
+        display: none;
+    }
+
+    .product__info > li > #MADE-TAG {
+        font-size: 10px;
+    }
+
+    .product__info > li:first-child > p {
+        font-size: 11px;
+    }
+
+    .weekly__item__wrap {
+        gap: 4px;
+    }
+
+    .weekly__item > p {
+        bottom: 120px;
+    }
+
+    .weekly__item__wrap > div:nth-child(1) > p {
+        color: white;
+        text-shadow: 0 0 5px black;
+    }
+
+    /* 3열 ==> 2열 그리드로 변경 */
+    .grid__container__4x1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1;
+        padding: 0;
+        margin-bottom: 120px;
+        width: 100%;
+    }
+
+    .cs {
+        display: none;
+    }
+
+    .nav__bar__wrap {
+        padding: 14px;
+    }
+
+    .nav__icons__wrapper {
+        gap: 12px;
+    }
+
+    .right__bnr__item {
+        display: none;
+    }
+
+}
+
+/* 769px ~ 1024px (태블릿 가로) */
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    .nav__bar__wrap {
+        padding: 16px;
+    }
+
+    .nav__logo {
+        font-size: 22px;
+    }
+
+    .menu__list li:not(:last-child) {
+        display: none;
+    }
+
+    .menu__ico__mobile {
+        display: flex;
+        font-size: 22px;
+        color: #323232;
+    }
+
+    .nav__icons__wrapper li:first-child {
+        display: none;
+    }
+
+    .grid-mb {
+        display: flex;
+        flex-direction: column;
+        gap: 36px;
+        padding: 120px 48px 0 48px;
+    }
+
+    .grid-items {
+        border: 1px solid #d8d8d8;
+    }
+    
+    .description > h2 {
+        top: -75px;
+        font-size: 26px;
+    }
+    
+    .description > p {
+        font-size: 14px;
+    }
+
+    .right__bnr__item > p:nth-child(4) {
+        display: none;
+    }
+
+    .product__info > li > #MADE-TAG {
+        font-size: 10px;
+    }
+
+    .product__info > li:first-child > p {
+        font-size: 11px;
+    }
+
+    .weekly__item__wrap {
+        gap: 4px;
+    }
+
+    .weekly__item > p {
+        bottom: 150px;
+    }
+
+    .weekly__item__wrap > div:nth-child(1) > p {
+        color: white;
+        text-shadow: 0 0 5px black;
+    }
+
+    /* 4열 ==> 3열 그리드로 변경 */
+    .grid__container__4x1 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1;
+        padding: 0;
+        margin-bottom: 120px;
+        width: 100%;
+    }
+
+}

@@ -1,0 +1,95 @@
+footer {
+    width: 100%;
+    background-color: #f4f4f4;
+}
+
+/*----------------------------*/
+.our__story__wrap {
+    width: 100%;
+    padding: 100px;
+    gap: 24px;
+}
+
+.catch-phrase {
+    width: 100%;
+}
+
+.catch-phrase > h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.phrase {
+    width: 100%;
+    font-size: 14px;
+    text-align: center;
+    line-height: 24px;
+}
+
+.phrase > p {
+    margin-bottom: 24px;
+}
+/*----------------------------*/
+
+.footer__wrapper {
+    width: 100%;
+    background-color: white;
+}
+
+.footer-grid {
+    padding: 24px;
+}
+.footer__logo__top > h2 {
+    font-size: 24px;
+}
+
+.footer__logo__top > a > img{
+    width: 16px;
+    height: 16px;
+}
+
+.brand > p {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    font-family: 'SUIT';
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.brand {
+    flex: 1.2;
+}
+/*----------------------------*/
+
+.cs > ul {
+    font-family: 'SUIT';
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+/*----------------------------*/
+
+.board__info {
+    font-family: 'SUIT';
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.info__nav li {
+    margin-bottom: 6px;
+}
+/*----------------------------*/
+
+.company__info {
+    font-family: 'SUIT';
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+/*----------------------------*/

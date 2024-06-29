@@ -1,0 +1,226 @@
+main {
+    padding: 110px 0 0 0;
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+
+/* 메인 배너 디자인 시작 */
+.main__bnr {
+    width: 100%;
+    height: auto;
+    background-color: #e1ded6;
+}
+
+.left__bnr__img {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.left__bnr__img > img {
+    width: 100%;
+}
+
+.right__bnr__item {
+    width: 100%;
+    height: auto;
+    gap: 24px;
+}
+
+.right__bnr__item img {
+    width: 100%;
+    max-width: 110px;
+    height: auto;
+    gap: 24px;
+}
+
+.right__bnr__item  p, .btn {
+    font-family: 'SUIT';
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.right__bnr__item > h2 {
+    font-size: 24px;
+    text-align: center;
+}
+
+.right__bnr__item .btn a {
+    font-size: 14px;
+    font-weight: 400;
+    border-bottom: 1px solid #2a2a2a;
+    letter-spacing: 1px;
+    text-align: center;
+}
+/* 메인 배너 디자인 끝 */
+
+
+/* 타이틀 배너 디자인 시작 */
+.title__area {
+    width: 100%;
+    padding: 48px;
+    background-color: #f1f0ec;
+    gap: 24px;
+}
+
+.title__area h2 {
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+.title__area span {
+    font-size: 14px;
+}
+
+ /* '.title__area | 아카이브 추천 아이템입니다' 영역 */
+.bg-white {
+    margin-top: 80px;
+    background-color: white;
+}
+/*-------------------------------------------*/
+
+/* 타이틀 배너 디자인 끝 */
+
+/* 브랜드 소개 그리드 디자인 시작 */  
+.grid__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0; /* 컨테이너 내부 여백 */
+    margin-bottom: 120px;
+    width: 100%; /* 반응형 너비 */
+} /* <<< 재사용 */
+
+.grid-item {
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    text-align: center;
+} /* <<< weekly item에서 재사용 */
+
+.grid-items {
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid #d8d8d8;
+    border-right: 1px solid #d8d8d8;
+}
+
+.grid-item .grid-items img {
+    width: 100%;
+    height: 100%;
+}
+
+.description {
+    width: 100%;
+    height: auto;
+    padding: 24px;
+    font-family: 'SUIT';
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.description > h2 {
+    position: relative;
+    top: -70px;
+    font-family: 'Aboreto';
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.description > p {
+    position: relative;
+    top: -24px;
+    letter-spacing: 1px;
+}
+/* 브랜드 소개 그리드 디자인 끝 */
+
+/* 서브 띠 배너 디자인 시작 */
+.sub__bnr__mid {
+    width: 100%;
+    height: 40vh;
+    background-image: url(/images/sub-bnr-bg.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* 서브 띠 배너 디자인 끝 */
+
+/* Weekly item 그리드 디자인 시작 */
+.weekly__item__wrap {
+    gap: 2px;
+    padding: 0 48px 0 48px;
+}
+
+.weekly__item img {
+    width: 100%;
+    height: 100%;
+}
+
+.weekly__item p {
+    position: relative;
+    bottom: 50px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 200;
+    color: #2a2a2a;
+}
+/* Weekly item 그리드 디자인 끝 */
+
+/* New product 영역 4X1 그리드 시작 */
+.grid__container__4x1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 4px;
+    padding: 0 48px 0 48px;
+    margin-bottom: 120px;
+    width: 100%;
+}
+
+.new-product {
+    margin-bottom: 60px;
+}
+
+.new-product > img{
+    width: 100%;
+}
+
+.new-product > a {
+    width: 92%;
+    margin-top: 36px;
+    padding: 12px;
+    font-size: 14px;
+    border: 1px solid #929292;
+}
+
+.product__description {
+    width: 100%;
+    margin-left: 24px;
+
+    font-family: 'Aboreto';
+}
+
+.product__info {
+    width: 100%;
+    font-size: 14px;
+}
+
+.product__info li {
+    margin-top: 12px;
+}
+
+.product__info > :nth-child(1) {
+    font-size: 12px;
+    color: #a88664;
+}
+
+.product__info > :nth-child(3)  {
+    margin-top: 24px;
+    font-size: 18px;
+}
+/* New product 4X1 그리드 끝 */
