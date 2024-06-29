@@ -24,8 +24,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
     });
-
+    
+    // 모달창 드래그하면 display: none;되는 버그 수정
     modalLogin.addEventListener('click', function(event) {
-        event.stopPropagation(); // 클릭 이벤트의 전파를 막아 모달이 닫히지 않도록 함
+        event.stopPropagation(); 
     });
 });
